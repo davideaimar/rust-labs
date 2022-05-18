@@ -1,0 +1,12 @@
+run: test
+  cargo run -- input/cal1.txt input/cal2.txt 30
+
+test:
+  cargo test
+
+check:
+  cargo clippy
+
+fix:
+  cargo clippy --fix
+
